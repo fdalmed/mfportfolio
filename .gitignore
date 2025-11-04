@@ -1,3 +1,9 @@
+# Your custom exclusions
+_older/
+commands_history.log
+new_structure.txt
+structure.txt
+
 # Logs
 logs
 *.log
