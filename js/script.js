@@ -252,7 +252,7 @@ class PortfolioApp {
     async loadComponents() {
         const loadPromises = Object.entries(this.components).map(async ([containerId, componentName]) => {
             try {
-                const response = await fetch(`/components/${componentName}.html`);
+                const response = await fetch(`components/${componentName}.html`);
                 if (!response.ok) throw new Error(`HTTP ${response.status}`);
                 const html = await response.text();
                 document.getElementById(containerId).innerHTML = html;
@@ -267,14 +267,14 @@ class PortfolioApp {
 
     async loadData() {
         const endpoints = [
-            '/data/hero.json', 
-            '/data/about.json',
-            '/data/experience.json', 
-            '/data/education.json',
-            '/data/languages.json',
-            '/data/skills.json',
-            '/data/navigation.json',
-            '/data/contact.json'
+            'data/hero.json', 
+            'data/about.json',
+            'data/experience.json', 
+            'data/education.json',
+            'data/languages.json',
+            'data/skills.json',
+            'data/navigation.json',
+            'data/contact.json'
         ];
 
         try {
