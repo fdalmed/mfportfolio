@@ -1,0 +1,32 @@
+{
+  "title": {
+    "fr": "Langues",
+    "en": "Languages"
+  },
+  "subtitle": {
+    "fr": "Maîtrise de plusieurs langues pour une communication internationale",
+    "en": "Mastery of multiple languages for international communication"
+  },
+  "items": [
+    {
+      "language": {
+        "fr": "Français",
+        "en": "French"
+      },
+      "level": {
+        "fr": "Lu, écrit et parlé",
+        "en": "Read, written and spoken"
+      }
+    },
+    {
+      "language": {
+        "fr": "Anglais",
+        "en": "English"
+      },
+      "level": {
+        "fr": "Lu, écrit et parlé",
+        "en": "Read, written and spoken"
+      }
+    }
+  ]
+}

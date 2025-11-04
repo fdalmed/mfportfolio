@@ -1,0 +1,49 @@
+<!-- components/navigation.html -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-gray-900/80 backdrop-blur-md border-b border-gray-800/60">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center py-4">
+      
+      <!-- Logo -->
+      <a href="#hero" class="text-xl font-bold text-white">Portfolio</a>
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex items-center space-x-8">
+        <ul class="flex space-x-8 text-gray-300 font-medium">
+          <li><a href="#about" class="nav-link hover:text-indigo-400 transition">About</a></li>
+          <li><a href="#skills" class="nav-link hover:text-indigo-400 transition">Skills</a></li>
+          <li><a href="#experience" class="nav-link hover:text-indigo-400 transition">Experience</a></li>
+          <li><a href="#education" class="nav-link hover:text-indigo-400 transition">Education</a></li>
+          <li><a href="#languages" class="nav-link hover:text-indigo-400 transition">Languages</a></li>
+          <li><a href="#contact" class="nav-link hover:text-indigo-400 transition">Contact</a></li>
+        </ul>
+        
+        <!-- Language Button -->
+        <button id="language-toggle" class="text-sm font-semibold px-4 py-2 rounded-lg text-white transition">FR</button>
+      </div>
+
+      <!-- Mobile menu button -->
+      <button id="mobile-menu-button" class="md:hidden text-gray-300 hover:text-white focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="md:hidden hidden bg-gray-900/95 backdrop-blur-md rounded-lg mt-2 py-4">
+      <ul class="flex flex-col space-y-4 px-4 text-gray-300 font-medium">
+        <li><a href="#about" class="block py-2 hover:text-indigo-400 transition">About</a></li>
+        <li><a href="#skills" class="block py-2 hover:text-indigo-400 transition">Skills</a></li>
+        <li><a href="#experience" class="block py-2 hover:text-indigo-400 transition">Experience</a></li>
+        <li><a href="#education" class="block py-2 hover:text-indigo-400 transition">Education</a></li>
+        <li><a href="#languages" class="block py-2 hover:text-indigo-400 transition">Languages</a></li>
+        <li><a href="#contact" class="block py-2 hover:text-indigo-400 transition">Contact</a></li>
+        <li class="pt-2 border-t border-gray-700">
+          <button id="language-toggle-mobile" class="w-full text-center py-2 px-4 rounded-lg text-white transition">
+            FR
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,90 @@
+{
+  "name": {
+    "fr": "Mohammed",
+    "en": "Mohammed"
+  },
+  "role": {
+    "fr": "Ingénieur Logiciel spécialisé en développement web",
+    "en": "Software Engineer specialized in Web Development"
+  },
+  "title": {
+    "fr": "À propos de moi",
+    "en": "About Me"
+  },
+  "descriptions": [
+    {
+      "fr": "Ingénieur logiciel expérimenté avec une solide expertise en développement web, capable de concevoir des architectures robustes, diriger des projets et encadrer des équipes. Passionné par les technologies back-end, mais polyvalent sur le front-end, le déploiement, la maintenance matérielle et les bases réseau.",
+      "en": "Experienced software engineer with strong web development expertise, capable of designing robust architectures, leading projects, and mentoring teams. Passionate about back-end technologies, but versatile in front-end, deployment, hardware maintenance, and networking fundamentals."
+    }
+  ],
+  "stats": [
+    {
+      "icon": "calendar-alt",
+      "value": {
+        "fr": "7+ années",
+        "en": "7+ years"
+      },
+      "label": {
+        "fr": "d'expérience",
+        "en": "of experience"
+      }
+    },
+    {
+      "icon": "project-diagram",
+      "value": {
+        "fr": "50+ projets",
+        "en": "50+ projects"
+      },
+      "label": {
+        "fr": "réalisés",
+        "en": "completed"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "icon": "server",
+      "title": {
+        "fr": "Back-End",
+        "en": "Back-End"
+      },
+      "description": {
+        "fr": "Développement d'APIs et services robustes",
+        "en": "Development of robust APIs and services"
+      }
+    },
+    {
+      "icon": "desktop",
+      "title": {
+        "fr": "Front-End",
+        "en": "Front-End"
+      },
+      "description": {
+        "fr": "Interfaces réactives et modernes",
+        "en": "Reactive and modern interfaces"
+      }
+    },
+    {
+      "icon": "database",
+      "title": {
+        "fr": "Bases de données",
+        "en": "Databases"
+      },
+      "description": {
+        "fr": "Optimisation et modélisation",
+        "en": "Optimization and modeling"
+      }
+    },
+    {
+      "icon": "cloud",
+      "title": {
+        "fr": "DevOps",
+        "en": "DevOps"
+      },
+      "description": {
+        "fr": "Intégration et déploiement continus",
+        "en": "Continuous integration and deployment"
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "about": {
+    "fr": "À propos",
+    "en": "About"
+  },
+  "skills": {
+    "fr": "Compétences", 
+    "en": "Skills"
+  },
+  "experience": {
+    "fr": "Expérience",
+    "en": "Experience"
+  },
+  "education": {
+    "fr": "Formation",
+    "en": "Education"
+  },
+  "contact": {
+    "fr": "Contact",
+    "en": "Contact"
+  }
+}

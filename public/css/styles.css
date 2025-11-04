@@ -1,0 +1,269 @@
+/* css/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Enhanced Dark Mode Support */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Smooth transitions for theme switching */
+html {
+    scroll-behavior: smooth;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    overflow-x: hidden;
+}
+
+/* Ensure smooth transitions for all theme-able properties */
+* {
+    transition: background-color 0.3s ease, 
+                border-color 0.3s ease, 
+                color 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+/* Dark mode as default */
+:root {
+    color-scheme: dark;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1f2937;
+}
+
+.dark ::-webkit-scrollbar-track {
+    background: #1f2937;
+}
+
+.light ::-webkit-scrollbar-track {
+    background: #f3f4f6;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4b5563;
+    border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+    background: #4b5563;
+}
+
+.light ::-webkit-scrollbar-thumb {
+    background: #d1d5db;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #6b7280;
+}
+
+/* Additional utility classes for theme transitions */
+.theme-transition {
+    transition: all 0.3s ease;
+}
+
+/* Ensure backdrop blur works in light mode */
+.backdrop-blur-sm {
+    backdrop-filter: blur(4px);
+}
+
+.backdrop-blur-xl {
+    backdrop-filter: blur(24px);
+}
+
+/* Fix for gradient text in light mode */
+.text-transparent {
+    color: transparent;
+}
+
+/* Ensure proper contrast in both themes */
+.dark .bg-gray-900\/60 {
+    background-color: rgba(17, 24, 39, 0.6);
+}
+
+.light .bg-gray-900\/60 {
+    background-color: rgba(243, 244, 246, 0.6);
+}
+
+/* Smooth hover effects */
+.hover-scale {
+    transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+    transform: scale(1.05);
+}
+
+/* Loading states */
+.loading {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+/* Focus styles for accessibility */
+button:focus-visible,
+a:focus-visible {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+}
+
+/* Go to Top Button Styles */
+#go-to-top {
+    transition: opacity 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+}
+
+#go-to-top.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+#go-to-top:hover {
+    transform: scale(1.1);
+}
+
+/* Simple loading solution */
+body.content-loading {
+    opacity: 0;
+    visibility: hidden;
+}
+
+body.content-loaded {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
+}
+
+/* Optional: Add a subtle loading indicator */
+body.content-loading::before {
+    content: '';
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    border: 3px solid #4b5563;
+    border-top: 3px solid #3b82f6;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    z-index: 9999;
+}
+
+@keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* Animation utilities */
+.fade-in-up {
+    animation: fadeInUp 0.6s ease-out both;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Navigation animations */
+.nav-link {
+    animation: fadeInUp 0.6s ease-out both;
+}
+
+/* Fix for navbar overlap on all sections */
+section {
+    scroll-margin-top: 80px;
+}
+
+/* Prevent hero section from being hidden behind navbar */
+#hero {
+  margin-top: 80px;
+}
+
+/* Add to styles.css */
+/* Mobile Menu Animations */
+#mobile-menu {
+    transition: all 0.3s ease-in-out;
+    transform-origin: top;
+}
+
+#mobile-menu:not(.hidden) {
+    animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Ensure proper spacing for mobile */
+@media (max-width: 768px) {
+    section {
+        scroll-margin-top: 100px;
+    }
+    
+    #hero {
+        margin-top: 100px;
+    }
+}
+
+/* Print styles */
+@media print {
+    .no-print {
+        display: none !important;
+    }
+    
+    .break-after-page {
+        page-break-after: always;
+    }
+}
+
+/* Ensure proper spacing for all sections */
+section.min-h-screen:not(:first-of-type) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+    scroll-padding-top: 80px;
+}

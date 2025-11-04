@@ -1,0 +1,86 @@
+{
+  "title": {
+    "fr": "À propos de moi",
+    "en": "About Me"
+  },
+  "descriptions": [
+    {
+      "fr": "Développeur Full Stack expérimenté spécialisé dans la création d'applications web performantes et évolutives. Passionné par les technologies back-end et les bonnes pratiques de développement.",
+      "en": "Experienced Full Stack Developer specialized in creating high-performance and scalable web applications. Passionate about back-end technologies and development best practices."
+    },
+    {
+      "fr": "Avec plus de 7 ans d'expérience dans le développement web, j'ai travaillé sur divers projets allant des plateformes e-commerce aux systèmes de gestion complexes.",
+      "en": "With over 7 years of experience in web development, I have worked on various projects ranging from e-commerce platforms to complex management systems."
+    }
+  ],
+  "stats": [
+    {
+      "icon": "calendar-alt",
+      "value": {
+        "fr": "7+ années",
+        "en": "7+ years"
+      },
+      "label": {
+        "fr": "d'expérience",
+        "en": "of experience"
+      }
+    },
+    {
+      "icon": "project-diagram",
+      "value": {
+        "fr": "50+ projets",
+        "en": "50+ projects"
+      },
+      "label": {
+        "fr": "réalisés",
+        "en": "completed"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "icon": "server",
+      "title": {
+        "fr": "Back-End",
+        "en": "Back-End"
+      },
+      "description": {
+        "fr": "Développement d'APIs et services robustes",
+        "en": "Development of robust APIs and services"
+      }
+    },
+    {
+      "icon": "desktop",
+      "title": {
+        "fr": "Front-End",
+        "en": "Front-End"
+      },
+      "description": {
+        "fr": "Interfaces réactives et modernes",
+        "en": "Reactive and modern interfaces"
+      }
+    },
+    {
+      "icon": "database",
+      "title": {
+        "fr": "Bases de données",
+        "en": "Databases"
+      },
+      "description": {
+        "fr": "Optimisation et modélisation",
+        "en": "Optimization and modeling"
+      }
+    },
+    {
+      "icon": "cloud",
+      "title": {
+        "fr": "DevOps",
+        "en": "DevOps"
+      },
+      "description": {
+        "fr": "Intégration et déploiement continus",
+        "en": "Continuous integration and deployment"
+      }
+    }
+  ]
+}

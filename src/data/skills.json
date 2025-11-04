@@ -1,0 +1,105 @@
+{
+  "title": {
+    "fr": "Compétences",
+    "en": "Skills"
+  },
+  "technical": {
+    "title": {
+      "fr": "Compétences Techniques",
+      "en": "Technical Skills"
+    },
+    "items": [
+      {
+        "fr": "Conception et développement d'applications web et de services back-end robustes en PHP (Laravel, Symfony) et Node.js",
+        "en": "Design and development of robust web applications and back-end services in PHP (Laravel, Symfony) and Node.js"
+      },
+      {
+        "fr": "Développement front-end réactif avec React, Vue.js, Angular, JavaScript ES6+, jQuery/AJAX",
+        "en": "Reactive front-end development with React, Vue.js, Angular, JavaScript ES6+, jQuery/AJAX"
+      },
+      {
+        "fr": "Mise en place et gestion de pipelines CI/CD avec GitLab, Jenkins et Docker",
+        "en": "Setup and management of CI/CD pipelines with GitLab, Jenkins and Docker"
+      },
+      {
+        "fr": "Conception logicielle en POO, application des principes SOLID, DDD et TDD",
+        "en": "Software design with OOP, application of SOLID, DDD and TDD principles"
+      },
+      {
+        "fr": "Optimisation des performances back-end : SQL optimisé, mise en cache (Redis), compression, réduction des temps de réponse",
+        "en": "Back-end performance optimization: optimized SQL, caching (Redis), compression, response time reduction"
+      },
+      {
+        "fr": "Intégration et documentation d'APIs REST avec conception claire des endpoints et versionnement",
+        "en": "REST API integration and documentation with clear endpoint design and versioning"
+      }
+    ]
+  },
+  "methodologies": {
+    "title": {
+      "fr": "Méthodologies",
+      "en": "Methodologies"
+    },
+    "items": [
+      {
+        "fr": "Tests unitaires, d'intégration et E2E avec PHPUnit, Jest et Selenium",
+        "en": "Unit, integration and E2E testing with PHPUnit, Jest and Selenium"
+      },
+      {
+        "fr": "Création de scénarios de tests automatisés Postman avec scripts Node.js",
+        "en": "Creation of automated Postman test scenarios with Node.js scripts"
+      },
+      {
+        "fr": "Pratique régulière de la revue de code (merge request, pull request)",
+        "en": "Regular practice of code review (merge request, pull request)"
+      },
+      {
+        "fr": "Suivi de la qualité du code avec SonarQube, ESLint, PHPStan et métriques de performance",
+        "en": "Code quality monitoring with SonarQube, ESLint, PHPStan and performance metrics"
+      },
+      {
+        "fr": "Conception et modélisation avec UML (diagrammes de classes, séquence, cas d'utilisation)",
+        "en": "Design and modeling with UML (class diagrams, sequence diagrams, use cases)"
+      },
+      {
+        "fr": "Méthodologie Agile Scrum avec sprints, daily stand-ups et rétrospectives",
+        "en": "Agile Scrum methodology with sprints, daily stand-ups and retrospectives"
+      }
+    ]
+  },
+  "frameworks": {
+    "title": {
+      "fr": "Frameworks",
+      "en": "Frameworks"
+    },
+    "items": ["Laravel", "Symfony", "Node.js", "React", "Vue.js", "Angular", "Bootstrap", "RESTful APIs", "jQuery", "AJAX"]
+  },
+  "languages": {
+    "title": {
+      "fr": "Langages",
+      "en": "Languages"
+    },
+    "items": ["JavaScript (ES6+)", "PHP", "SQL", "TypeScript", "Shell Script"]
+  },
+  "databases": {
+    "title": {
+      "fr": "Bases de données",
+      "en": "Databases"
+    },
+    "items": ["MySQL", "Oracle", "SQL Server", "PostgreSQL"]
+  },
+  "tools": {
+    "title": {
+      "fr": "Outils",
+      "en": "Tools"
+    },
+    "items": ["Git", "GitLab CI/CD", "Jenkins", "Docker", "Postman", "Redis", "PHPUnit", "Jest", "Selenium", "SonarQube", "Visual Studio Code", "Eclipse", "Power BI"]
+  },
+  "design": {
+    "title": {
+      "fr": "Conception",
+      "en": "Design"
+    },
+    "items": ["Merise", "UML"]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "title": {
+    "fr": "Formation",
+    "en": "Education"
+  },
+  "subtitle": {
+    "fr": "Mon parcours académique et formations continues",
+    "en": "My academic background and continuous training"
+  },
+  "items": [
+    {
+      "institution": "Le Conservatoire national des arts et métiers (CNAM) Paris, FRANCE",
+      "degree": {
+        "fr": "Licence en informatique générale ",
+        "en": "Bachelor's Degree in Computer Science"
+      },
+      "year": 2021,
+      "badges": ["WES"]
+    },
+    {
+      "institution": "OFPPT Institut Spécialisé de Technologie Appliquée LAZARET (ISTA), MAROC",
+      "degree": {
+        "fr": "Diplôme de technicien spécialisé en développement informatique",
+        "en": "Specialized Technician Diploma in Software Development"
+      },
+      "year": 2015,
+      "badges": ["WES"]
+    }
+  ]
+}

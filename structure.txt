@@ -1,0 +1,38 @@
+
+|-- index.html
+|-- new_structure.txt
+|-- package-lock.json
+|-- package.json
+|-- public
+|   |-- assets
+|   |   `-- images
+|   |       `-- profile.jpg
+|   |-- css
+|   |   `-- styles.css
+|   `-- js
+|       `-- script.js
+|-- server.js
+|-- src
+|   |-- components
+|   |   |-- about.html
+|   |   |-- contact.html
+|   |   |-- education.html
+|   |   |-- experience.html
+|   |   |-- footer.html
+|   |   |-- hero.html
+|   |   |-- languages.html
+|   |   |-- mobile-menu.html
+|   |   |-- navigation.html
+|   |   `-- skills.html
+|   |-- data
+|   |   |-- education.json
+|   |   |-- experience.json
+|   |   |-- languages.json
+|   |   |-- personal.json
+|   |   `-- skills.json
+|   `-- utils
+|       `-- constants.js
+|-- structure.txt
+`-- tailwind.config.js
+
+10 directories, 29 files

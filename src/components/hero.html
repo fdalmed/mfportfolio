@@ -1,0 +1,37 @@
+<section class="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex items-center justify-center relative overflow-hidden transition-colors duration-300 pt-16">
+  <div class="container mx-auto px-6 text-center relative z-10">
+    <div class="max-w-3xl mx-auto">
+      <!-- Name will be injected from personal.json -->
+      <h1 class="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
+        <span id="name" class="bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+          <!-- Dynamic name will be inserted here -->
+        </span>
+      </h1>
+      
+      <!-- Role from hero.json -->
+      <p class="text-xl md:text-2xl text-gray-300 mb-6 animate-fade-in delay-300" id="role">
+        <!-- Dynamic role will be inserted here -->
+      </p>
+      
+      <!-- Descriptions from hero.json -->
+      <div id="hero-description" class="animate-fade-in delay-600">
+        <!-- Dynamic description paragraphs will be inserted here by JavaScript -->
+      </div>
+
+      <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6 mt-8">
+        <a href="#contact" class="px-8 py-4 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-xl text-white font-semibold hover:from-indigo-500 hover:to-purple-500 transition-all duration-300 shadow-2xl hover:shadow-indigo-500/25 hover-scale" id="contact-btn">
+          <!-- Text will be updated by JavaScript -->
+        </a>
+        <a href="#about" class="px-8 py-4 border border-gray-600 rounded-xl text-gray-300 hover:bg-gray-800/50 hover:border-gray-500 transition-all duration-300 hover-scale" id="about-btn">
+          <!-- Text will be updated by JavaScript -->
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional abstract shapes for visual depth - Fixed to prevent horizontal scroll -->
+  <div class="absolute inset-0 pointer-events-none overflow-hidden">
+    <div class="absolute w-64 h-64 md:w-96 md:h-96 bg-indigo-700/20 rounded-full blur-3xl -top-16 md:-top-32 -left-16 md:-left-32 animate-blob"></div>
+    <div class="absolute w-48 h-48 md:w-72 md:h-72 bg-purple-600/20 rounded-full blur-2xl -bottom-12 md:-bottom-24 -right-12 md:-right-24 animate-blob animation-delay-2000"></div>
+  </div>
+</section>

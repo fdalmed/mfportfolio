@@ -1,0 +1,30 @@
+{
+  "name": {
+    "fr": "Mohammed",
+    "en": "Mohammed"
+  },
+  "role": {
+    "fr": "Ingénieur logiciel spécialisé en développement web",
+    "en": "Software Engineer specialized in Web Development"
+  },
+  "title": {
+    "fr": "À propos de moi", 
+    "en": "About Me"
+  },
+  "descriptions": [
+    {
+      "fr": "Ingénieur logiciel en développement web avec 7+ ans d'expérience. Spécialisé en back-end et création d'applications performantes, avec une bonne maîtrise du cycle complet d'une solution web.",
+      "en": "Software Engineer in web development with 7+ years of experience. Focused on back-end and high-performance applications, with solid knowledge of the full web solution lifecycle."
+    }
+  ],
+  "buttons": {
+    "contact": {
+      "fr": "Me Contacter",
+      "en": "Contact Me"
+    },
+    "about": {
+      "fr": "En Savoir Plus", 
+      "en": "Learn More"
+    }
+  }
+}

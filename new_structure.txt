@@ -1,0 +1,31 @@
+portfolio/
+├── public/                          # Static assets
+│   ├── assets/
+│   │   └── images/
+│   │       └── profile.jpg
+│   ├── css/
+│   │   └── styles.css
+│   └── js/
+│       └── script.js
+├── src/
+│   ├── components/                  # HTML components
+│   │   ├── about.html
+│   │   ├── contact.html
+│   │   ├── education.html
+│   │   ├── experience.html
+│   │   ├── footer.html
+│   │   ├── hero.html
+│   │   ├── languages.html
+│   │   ├── navigation.html
+│   │   └── skills.html
+│   ├── data/                       # JSON data files
+│   │   ├── education.json
+│   │   ├── experience.json
+│   │   ├── languages.json
+│   │   ├── personal.json
+│   │   └── skills.json
+│   └── utils/                      # Utility functions
+│       └── constants.js
+├── package.json
+├── server.js
+└── index.html

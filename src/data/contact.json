@@ -1,0 +1,32 @@
+{
+  "title": {
+    "fr": "Restons en contact",
+    "en": "Let's Get In Touch"
+  },
+  "subtitle": {
+    "fr": "Discutons de votre prochain projet. Je suis toujours ouvert à de nouvelles opportunités et collaborations.",
+    "en": "Let's discuss your next project. I'm always open to new opportunities and collaborations."
+  },
+  "contactMethods": {
+    "email": {
+      "fr": "Email",
+      "en": "Email"
+    },
+    "whatsapp": {
+      "fr": "WhatsApp", 
+      "en": "WhatsApp"
+    },
+    "phone": {
+      "fr": "Téléphone",
+      "en": "Phone"
+    },
+    "location": {
+      "fr": "Localisation",
+      "en": "Location"
+    }
+  },
+  "location": {
+    "fr": "Rabat, Maroc",
+    "en": "Rabat, Morocco"
+  }
+}

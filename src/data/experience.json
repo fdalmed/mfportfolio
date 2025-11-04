@@ -1,0 +1,234 @@
+[
+  {
+    "company": { "fr": "FREELANCE", "en": "FREELANCE" },
+    "duration": { "fr": "Août 2023 – Actuellement", "en": "August 2023 – Present" },
+    "type": { "fr": "Freelance", "en": "Freelance" },
+    "role": { "fr": "Software Engineer", "en": "Software Engineer" },
+    "context": {
+      "fr": "Accompagnement technique complet de clients dans le développement, la maintenance et l’optimisation d’applications web et back-end, selon leurs besoins spécifiques.",
+      "en": "Comprehensive technical support for clients in developing, maintaining, and optimizing web and back-end applications tailored to their specific business needs."
+    },
+    "responsibilities": {
+      "fr": [
+        "Conception, développement et maintenance de modules back-end modulaires et évolutifs adaptés à différents contextes métiers",
+        "Correction de bugs, refactoring de code et amélioration continue des performances des applications existantes",
+        "Mise en œuvre et promotion des bonnes pratiques de développement (SOLID, DDD, Clean Architecture)",
+        "Création et maintenance d’APIs REST et GraphQL pour l’intégration avec des services tiers",
+        "Automatisation du cycle de développement via des pipelines CI/CD et des environnements conteneurisés",
+        "Assistance technique et support aux clients : diagnostic, résolution d’incidents, et conseils sur les choix d’architecture",
+        "Participation à la rédaction de documentation technique et à la mise en place de stratégies de tests (unitaires et d’intégration)"
+      ],
+      "en": [
+        "Design, development, and maintenance of modular and scalable back-end modules for diverse business contexts",
+        "Bug fixing, code refactoring, and continuous performance improvement of existing applications",
+        "Implementation and promotion of software engineering best practices (SOLID, DDD, Clean Architecture)",
+        "Development and maintenance of REST and GraphQL APIs for integration with third-party services",
+        "Automation of the development lifecycle through CI/CD pipelines and containerized environments",
+        "Technical assistance and client support: diagnostics, incident resolution, and architecture consulting",
+        "Contribution to technical documentation and implementation of testing strategies (unit and integration tests)"
+      ]
+    },
+    "results": {
+      "fr": [
+        "Amélioration continue de la fiabilité et de la maintenabilité des projets clients",
+        "Réduction des incidents récurrents grâce à la correction proactive et au suivi de qualité",
+        "Renforcement de la satisfaction des clients via un accompagnement technique complet et réactif",
+        "Optimisation du temps de livraison et de la stabilité des déploiements grâce à une automatisation maîtrisée"
+      ],
+      "en": [
+        "Continuous improvement in the reliability and maintainability of client projects",
+        "Reduced recurring incidents through proactive fixes and quality monitoring",
+        "Enhanced client satisfaction thanks to comprehensive and responsive technical support",
+        "Optimized delivery time and deployment stability through controlled automation"
+      ]
+    },
+    "techStack": [
+      "Node.js", "NestJS", "Laravel", "Symfony", "TypeScript",
+      "PostgreSQL", "MySQL", "Redis", "Docker", "Jenkins",
+      "GraphQL", "REST APIs", "Jest", "PHPUnit", "Git", "Agile Scrum"
+    ]
+  },
+  {
+    "company": { "fr": "Société H, Rabat, Maroc", "en": "Company H, Rabat, Morocco" },
+    "duration": { "fr": "Août 2023 – Juin 2025", "en": "August 2023 – June 2025" },
+    "type": { "fr": "CDI", "en": "Permanent" },
+    "role": { "fr": "Software Engineer", "en": "Software Engineer" },
+    "context": {
+      "fr": "Développement, optimisation et maintenance d’applications destinées à la gestion des bibliothèques et des établissements universitaires.",
+      "en": "Development, optimization, and maintenance of applications for library and university management."
+    },
+    "responsibilities": {
+      "fr": [
+        "Conception et développement de systèmes de gestion des prêts et retours avec automatisation des pénalités et suivi des utilisateurs",
+        "Mise en place de plateformes de recherche avancée avec filtres dynamiques, classement par pertinence et gestion optimisée des données",
+        "Création d’outils d’administration pour la gestion des ressources numériques et des catalogues documentaires",
+        "Optimisation des performances applicatives et de la structure de base de données pour une meilleure réactivité du système",
+        "Application de bonnes pratiques de conception logicielle (SOLID, DDD) pour renforcer la maintenabilité et la modularité du code",
+        "Contribution à l’évolution des sites web universitaires, avec intégration continue et amélioration de l’expérience utilisateur"
+      ],
+      "en": [
+        "Design and development of loan and return management systems with automated penalties and user tracking",
+        "Implementation of advanced search platforms with dynamic filters, relevance-based ranking, and optimized data handling",
+        "Creation of administration tools for managing digital resources and library catalogs",
+        "Optimization of application performance and database structure for improved system responsiveness",
+        "Application of software engineering best practices (SOLID, DDD) to enhance maintainability and modularity of code",
+        "Contribution to the evolution of university websites, with continuous integration and improved user experience"
+      ]
+    },
+    "results": {
+      "fr": [
+        "Amélioration significative des performances de recherche et de l’expérience utilisateur",
+        "Réduction progressive des incidents en production grâce à une meilleure qualité du code et à l’automatisation des tests",
+        "Optimisation du cycle de mise à jour et de déploiement pour des livraisons plus rapides et stables",
+        "Renforcement de la cohérence technique entre les différents projets via une architecture unifiée et modulaire"
+      ],
+      "en": [
+        "Significant improvement in search performance and user experience",
+        "Progressive reduction of production incidents through higher code quality and test automation",
+        "Optimization of update and deployment cycles for faster and more stable deliveries",
+        "Strengthened technical consistency across projects through a unified and modular architecture"
+      ]
+    },
+    "techStack": [
+      "NestJS", "Node.js", "Laravel", "Next.js", "PHP", "MySQL",
+      "TypeScript", "JavaScript", "REST APIs", "Docker", "Git", "Jest", "PHPUnit", "Agile Scrum"
+    ]
+  },
+  {
+    "company": { "fr": "Société M, Rabat, Maroc", "en": "Company M, Rabat, Morocco" },
+    "duration": { "fr": "Juillet 2020 – Juillet 2023", "en": "July 2020 – July 2023" },
+    "type": { "fr": "CDI", "en": "Permanent" },
+    "role": {
+      "fr": "Software Engineer – Développement Back-End & Front-End",
+      "en": "Software Engineer – Back-End & Front-End Development"
+    },
+    "context": {
+      "fr": "Participation au développement, au déploiement et à la maintenance d’applications métiers dans le secteur de la santé, tout en assurant la gestion technique de l’infrastructure informatique.",
+      "en": "Participation in the development, deployment, and maintenance of business applications in the healthcare sector, while managing IT infrastructure."
+    },
+    "responsibilities": {
+      "fr": [
+        "Conception et développement d’applications métier assurant le suivi complet des interventions et des processus internes",
+        "Mise en place de modules analytiques pour la production de rapports et d’indicateurs opérationnels en temps réel",
+        "Intégration de solutions de traçabilité et de gestion des données pour renforcer la fiabilité et la continuité des opérations",
+        "Administration et maintenance des serveurs Windows et Linux, incluant la supervision matérielle et logicielle",
+        "Gestion du réseau informatique et support technique auprès des équipes internes",
+        "Participation à la configuration et à la connectivité des équipements techniques aux systèmes d’information"
+      ],
+      "en": [
+        "Design and development of business applications ensuring full tracking of interventions and internal processes",
+        "Implementation of analytical modules for real-time reporting and operational indicators",
+        "Integration of traceability and data management solutions to strengthen reliability and operational continuity",
+        "Administration and maintenance of Windows and Linux servers, including hardware and software monitoring",
+        "Management of IT networks and technical support for internal teams",
+        "Participation in configuration and connectivity of technical equipment with information systems"
+      ]
+    },
+    "results": {
+      "fr": [
+        "Amélioration de la productivité des équipes terrain grâce à des outils métiers mieux intégrés",
+        "Renforcement de la fiabilité et de la continuité des opérations via une infrastructure plus stable et centralisée",
+        "Optimisation de la gestion des ressources techniques et informatiques",
+        "Meilleure visibilité sur les activités et interventions grâce à la mise en place d’un système analytique et de traçabilité"
+      ],
+      "en": [
+        "Improved field team productivity through better-integrated business tools",
+        "Enhanced reliability and operational continuity via a more stable and centralized infrastructure",
+        "Optimized management of technical and IT resources",
+        "Better visibility into activities and interventions through the implementation of an analytical and traceability system"
+      ]
+    },
+    "techStack": [
+      "Node.js", "Symfony", "PHP", "MySQL", "JavaScript",
+      "Linux", "Windows Server", "Networking", "Hardware/Software Maintenance", "REST APIs", "Git", "Postman"
+    ]
+  },
+  {
+    "company": { "fr": "Société T, Fès, Maroc", "en": "Company T, Fes, Morocco" },
+    "duration": { "fr": "Avril 2019 – Janvier 2020", "en": "April 2019 – January 2020" },
+    "type": { "fr": "CDI", "en": "Permanent" },
+    "role": { "fr": "Développeur Web Full Stack / Testeur", "en": "Full Stack Web Developer / Tester" },
+    "context": {
+      "fr": "Développement et maintenance d’outils destinés à la gestion des factures, forfaits, paniers, remises et abonnements.",
+      "en": "Development and maintenance of tools for managing invoices, plans, shopping carts, discounts, and subscriptions."
+    },
+    "responsibilities": {
+      "fr": [
+        "Conception et développement de modules métiers pour la gestion complète des offres, abonnements et transactions",
+        "Mise en place de dépôts de données sécurisés assurant la traçabilité complète des opérations",
+        "Rédaction de cahiers de recette et élaboration de plans de tests fonctionnels et techniques",
+        "Conception et exécution de scénarios de tests API avec Postman et tests automatisés côté serveur",
+        "Réalisation de tests unitaires et fonctionnels en PHP pour garantir la stabilité des modules développés",
+        "Automatisation de processus récurrents tels que la création d’offres, la génération de rapports et l’archivage des transactions"
+      ],
+      "en": [
+        "Design and development of business modules for comprehensive management of offers, subscriptions, and transactions",
+        "Implementation of secure data repositories ensuring full traceability of operations",
+        "Writing test specifications and preparing functional and technical test plans",
+        "Design and execution of API test scenarios with Postman and automated server-side tests",
+        "Execution of unit and functional tests in PHP to ensure module stability",
+        "Automation of recurring processes such as offer creation, report generation, and transaction archiving"
+      ]
+    },
+    "results": {
+      "fr": [
+        "Amélioration de la fiabilité et de la cohérence des données clients",
+        "Renforcement de la qualité logicielle grâce à une meilleure couverture de tests",
+        "Optimisation des processus internes liés à la gestion des offres et abonnements",
+        "Amélioration de l’expérience utilisateur avec une interface plus fluide et réactive"
+      ],
+      "en": [
+        "Improved reliability and consistency of client data",
+        "Enhanced software quality through better test coverage",
+        "Optimized internal processes related to offers and subscription management",
+        "Improved user experience with a smoother and more responsive interface"
+      ]
+    },
+    "techStack": [
+      "PHP", "MySQL", "Node.js", "JavaScript", "jQuery",
+      "Selenium", "Postman", "HTML", "CSS", "Git"
+    ]
+  },
+  {
+    "company": { "fr": "Société O, Oujda, Maroc", "en": "Company O, Oujda, Morocco" },
+    "duration": { "fr": "Janvier 2016 – Mars 2019", "en": "January 2016 – March 2019" },
+    "type": { "fr": "Freelance", "en": "Freelance" },
+    "role": { "fr": "Développeur Web Full Stack", "en": "Full Stack Web Developer" },
+    "context": {
+      "fr": "Développement et maintenance d'outils web pour le secteur des télécommunications.",
+      "en": "Development and maintenance of web tools for the telecommunications sector."
+    },
+    "responsibilities": {
+      "fr": [
+        "Développement d'un comparateur de forfaits avec filtres dynamiques et mises à jour en temps réel",
+        "Conception d'interfaces web interactives",
+        "Mise en place de scripts SQL pour gérer les offres, tarifs et critères de comparaison",
+        "Automatisation de certaines tâches répétitives",
+        "Tests fonctionnels pour valider la précision des résultats"
+      ],
+      "en": [
+        "Development of a plan/comparison tool with dynamic filters and real-time updates",
+        "Design of interactive web interfaces",
+        "Implementation of SQL scripts to manage offers, pricing, and comparison criteria",
+        "Automation of repetitive tasks",
+        "Functional testing to ensure accuracy of results"
+      ]
+    },
+    "results": {
+      "fr": [
+        "Amélioration de l'expérience utilisateur",
+        "Gain de temps pour les utilisateurs dans le choix du meilleur forfait",
+        "Réduction des erreurs de sélection et meilleure visibilité des offres"
+      ],
+      "en": [
+        "Enhanced user experience",
+        "Time savings for users in selecting the best plan",
+        "Reduced selection errors and improved visibility of offers"
+      ]
+    },
+    "techStack": [
+      "PHP", "MySQL", "JavaScript", "jQuery", "HTML", "CSS"
+    ]
+  }
+
+]
