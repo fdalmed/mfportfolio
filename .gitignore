@@ -1,5 +1,5 @@
 # Your custom exclusions
-_older/
+_old/
 commands_history.log
 new_structure.txt
 structure.txt
@@ -143,4 +143,3 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
-_old/
