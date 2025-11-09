@@ -1,4 +1,4 @@
-// public/js/script.js - Optimized version
+// js/script.js - Optimized version
 class PortfolioApp {
     constructor() {
         this.currentLang = 'fr';
@@ -151,7 +151,6 @@ class PortfolioApp {
         }
     }
 
-
     handleDocumentClick(e) {
         // Handle both desktop and mobile language toggle buttons
         if (e.target.closest('#language-toggle') || e.target.closest('#language-toggle-mobile')) {
@@ -170,8 +169,6 @@ class PortfolioApp {
         }
         if (mobileButton) {
             mobileButton.textContent = this.currentLang.toUpperCase();
-            // Or use this for full text:
-            // mobileButton.textContent = this.currentLang === 'fr' ? 'Switch to English' : 'Passer en Français';
         }
     }
 
@@ -182,20 +179,6 @@ class PortfolioApp {
         this.renderAll();
     }
 
-    // Update the updateLanguageButton method to handle mobile too
-    // updateLanguageButton() {
-    //     const button = document.getElementById('language-toggle');
-    //     const mobileButton = document.getElementById('language-toggle-mobile');
-        
-    //     if (button) {
-    //         button.textContent = this.currentLang.toUpperCase();
-    //     }
-    //     if (mobileButton) {
-    //         mobileButton.textContent = this.currentLang === 'fr' ? 'Switch to English' : 'Passer en Français';
-    //     }
-    // }
-    
-
     bindMethods() {
         // Bind all methods for consistent context
         Object.getOwnPropertyNames(Object.getPrototypeOf(this))
@@ -204,50 +187,6 @@ class PortfolioApp {
                 this[method] = this[method].bind(this);
             });
     }
-    /**
-    async init() {
-        try {
-            this.ensureDarkMode();
-            await this.loadComponents();
-            await this.loadData();
-            this.initEventListeners();
-            this.initAnimations();
-            this.initScrollToTop();
-        } catch (error) {
-            console.error('Failed to initialize app:', error);
-        }
-    } */
-
-    // async init() {
-    //     try {
-    //         this.ensureDarkMode();
-            
-    //         // Hide everything immediately
-    //         document.documentElement.style.visibility = 'hidden';
-            
-    //         await this.loadComponents();
-    //         await this.loadData();
-            
-    //         this.initEventListeners();
-    //         this.initAnimations();
-    //         this.initScrollToTop();
-            
-    //         // Show everything with smooth transition
-    //         document.documentElement.style.visibility = 'visible';
-    //         document.documentElement.style.opacity = '0';
-            
-    //         setTimeout(() => {
-    //             document.documentElement.style.transition = 'opacity 0.4s ease-in-out';
-    //             document.documentElement.style.opacity = '1';
-    //         }, 50);
-            
-    //     } catch (error) {
-    //         console.error('Failed to initialize app:', error);
-    //         // Always show content even on error
-    //         document.documentElement.style.visibility = 'visible';
-    //         document.documentElement.style.opacity = '1';
-    //     }
-    // }
 
     async loadComponents() {
         const loadPromises = Object.entries(this.components).map(async ([containerId, componentName]) => {
@@ -360,19 +299,6 @@ class PortfolioApp {
         
         return data[this.currentLang] || data[fallbackKey] || '';
     }
-
-    // toggleLanguage() {
-    //     this.currentLang = this.currentLang === 'fr' ? 'en' : 'fr';
-    //     this.updateLanguageButton();
-    //     this.renderAll();
-    // }
-
-    // updateLanguageButton() {
-    //     const button = document.getElementById('language-toggle');
-    //     if (button) {
-    //         button.textContent = this.currentLang.toUpperCase();
-    //     }
-    // }
 
     renderAll() {
         this.renderNavigation();
@@ -766,13 +692,6 @@ class PortfolioApp {
     initEventListeners() {
         document.addEventListener('click', this.handleDocumentClick);
     }
-
-    // handleDocumentClick(e) {
-    //     if (e.target.closest('#language-toggle')) {
-    //         e.preventDefault();
-    //         this.toggleLanguage();
-    //     }
-    // }
 
     initAnimations() {
         if (typeof AOS !== 'undefined') {
