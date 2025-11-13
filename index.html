@@ -16,16 +16,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MQS6L984BV"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-MQS6L984BV');
   </script>
 </head>
+
 <body class="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300">
   <!-- Navigation -->
   <div id="navigation-container"></div>
@@ -62,11 +63,12 @@
   <!-- Scripts -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="js/script.js"></script>
-   <script>
-    // Initialize AOS
+
+  <script>
+    // Initialize AOS animations
     AOS.init();
 
-    // Example: Track Go-to-Top button clicks in GA
+    // Track "Go to Top" button clicks
     const goTopBtn = document.getElementById('go-to-top');
     goTopBtn.addEventListener('click', () => {
       gtag('event', 'click', {
@@ -74,6 +76,26 @@
         event_label: 'Go To Top'
       });
     });
+
+    // Detect and track UTM parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    const utmSource = urlParams.get('utm_source');
+    const utmMedium = urlParams.get('utm_medium');
+    const utmCampaign = urlParams.get('utm_campaign');
+
+    if (utmSource || utmMedium || utmCampaign) {
+      console.log("UTM parameters detected:", {
+        utm_source: utmSource,
+        utm_medium: utmMedium,
+        utm_campaign: utmCampaign
+      });
+
+      // Send to Google Analytics as a custom event
+      gtag('event', 'utm_tracking', {
+        event_category: 'Marketing',
+        event_label: `${utmSource || 'unknown'} / ${utmMedium || 'unknown'} / ${utmCampaign || 'unknown'}`
+      });
+    }
   </script>
 </body>
 </html>
